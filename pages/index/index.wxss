@@ -1,0 +1,89 @@
+/**index.wxss**/
+.container{
+    height: 100%;
+    padding: 0rpx 20rpx;
+}
+.index-top{
+    width: 100%;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    border-radius: 15px;
+}
+.index-top-img{
+    width: 30px;
+    height: 30px;
+}
+.index-top-add{
+    font-size: 13px;
+    line-height: 30px;
+    height: 30px;
+    text-indent: 10rpx;
+}
+/* 轮播开始 */
+.index-swiper{
+    margin-top: 8rpx;
+}
+swiper{
+    height: 400rpx;
+}
+.demo-text-1{
+    height: 100%;
+    background: rgb(0, 153, 255);
+}
+.demo-text-2{
+    height: 100%;
+    background: rgb(0, 119, 255);
+}
+.demo-text-3{
+    height: 100%;
+    background: rgb(0, 60, 128);
+}
+/* 按钮区开始 */
+.index-btn-view{
+    width: 98%;
+    border-radius: 20rpx;
+    box-shadow: 0rpx 0rpx 20rpx 0rpx rgb(214, 214, 214);
+    margin: 16rpx auto;
+    padding-top: 40rpx;
+    padding-bottom: 40rpx;
+}
+.btn-view-top,.btn-view-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btnView-style{
+    width: 200rpx;
+    height: 200rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btnView-style image{
+    width: 60%;
+    height: 60%;
+}
+.btnView-style text{
+    font-size: 32rpx;
+    padding-top: 18rpx;
+}
+.btn-view-bottom{
+    margin-top: 40rpx;
+}
+.more-style{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 60rpx;
+    font-weight: bold;
+    color: rgb(92, 92, 92);
+}
+.hover-btn{
+    background: rgb(240, 240, 240);
+    border-radius: 10rpx;
+}

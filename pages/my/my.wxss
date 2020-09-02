@@ -1,0 +1,224 @@
+/* pages/my/my.wxss */
+page{
+  background: #ffffff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top{
+  width: 100%;
+  height: 133rpx;
+  background: #ffffff;
+}
+.view-account{
+  width:665rpx;
+  height:265rpx;
+  background: #fff;
+  position: absolute;
+  top: 46rpx;
+  box-shadow: 0rpx 0rpx 20rpx 0rpx rgb(230, 230, 230);
+  border-radius: 8rpx;
+}
+.img-view{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  border: 4rpx solid #f5f5f5;
+  text-align: center;
+  background: #fff;
+  position: relative;
+  left: 38rpx;
+  top: -42rpx;
+}
+.img-tou{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+}
+.aco-view{
+  width: 468rpx;
+  height: 105rpx;
+  position: relative;
+  top: -140rpx;
+  left: 194rpx;
+}
+.aco-nameandsex{
+  font-size: 36rpx;
+  height: 50%;
+  padding-left: 28rpx;
+  padding-top: 14rpx;
+}
+.sex-img{
+  width: 30rpx;
+  height: 30rpx;
+  position: relative;
+  top: 6rpx;
+}
+.account-bottom{
+  width: 100%;
+  height: 130rpx;
+  border-top: 2rpx solid #f7f7f7;
+  position: relative;
+  top: -114rpx;
+}
+/* 余额 */
+.balance{
+  width: 49%;
+  height: 130rpx;
+  border-right: 2rpx solid #f7f7f7;
+  float: left;
+  text-align: center;
+}
+/* 积分 */
+.integral{
+  width: 50%;
+  height: 130rpx;
+  float: left;
+  text-align: center;
+}
+.balance-data{
+  height: 65rpx;
+  width: 100%;
+  line-height: 100rpx;
+  font-size: 28rpx;
+}
+.balance-txt{
+  height: 65rpx;
+  width: 100%;
+  line-height: 65rpx;
+  font-size: 28rpx;
+}
+.integral-data{
+  height: 65rpx;
+  width: 100%;
+  line-height: 100rpx;
+  font-size: 28rpx;
+}
+.integral-txt{
+  width: 100%;
+  height: 65rpx;
+  line-height: 65rpx;
+  font-size: 28rpx;
+}
+.view-nav{
+  width: 664rpx;
+  height: 333rpx;
+  background: #fff;
+  position: relative;
+  top: 208rpx;
+  box-shadow: 0rpx 0rpx 20rpx 0rpx rgb(230, 230, 230);
+}
+.view-help{
+  width: 664rpx;
+  height: 111rpx;
+  background: #fff;
+  position: relative;
+  top: 238rpx;
+  box-shadow: 0rpx 0rpx 20rpx 0rpx rgb(230, 230, 230);
+}
+.link-style{
+  width: 100%;
+  height: 111rpx;
+  line-height: 111rpx;
+  display: flex;
+  align-items:center;
+  font-size: 28rpx;
+}
+.green{
+  width: 44rpx;
+  height: 44rpx;
+  background: #31dfb5;
+  border-radius: 50%;
+  margin-left: 22rpx;
+  margin-right: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.green-img{
+  width: 30rpx;
+  height: 30rpx;
+}
+.orange{
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 50%;
+  background: #ff8b53;
+  margin-right: 30rpx;
+  margin-left: 22rpx; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+.orange-img{
+  width: 22rpx;
+  height: 26rpx;
+}
+.purple{
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 50%;
+  margin-left: 22rpx;
+  margin-right: 30rpx;
+  background: #8c86f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.purple-img{
+  width: 26rpx;
+  height: 26rpx;
+}
+.blue{
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+  margin-left: 22rpx;
+  background: #73aeff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blue-img{
+  width: 26rpx;
+  height: 26rpx;
+}
+.red{
+  width: 44rpx;
+  height: 44rpx;
+  margin-right: 30rpx;
+  margin-left: 22rpx;
+  background: #f77163;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.red-img{
+  width: 28rpx;
+  height: 28rpx;
+}
+.grey{
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 50%;
+  margin-left: 22rpx;
+  margin-right: 30rpx;
+  background: #bdbebd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.grey-img{
+  width: 34rpx;
+  height: 34rpx;
+}

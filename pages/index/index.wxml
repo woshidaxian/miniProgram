@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<view class="container">
+    <view class='index-top'>
+        <image src='{{addressImgSrc}}' class='index-top-img'></image>
+        <view class='index-top-add'>{{address}}</view>
+    </view>
+    <view class='index-swiper'>
+        <swiper indicator-dots="true"
+            autoplay="true" interval="3000" duration="500">
+            <block wx:for="{{swiper_bg}}" wx:key="*this">
+                <swiper-item>
+                    <view class="swiper-item {{item}}"></view>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+    <view class='index-btn-view'>
+        <view class='btn-view-top'>
+            <view class='btnView-style' hover-class='hover-btn'>
+                <image src='{{scanImg}}'></image>
+                <text>扫码取药</text>
+            </view>
+            <view class='btnView-style' hover-class='hover-btn'>
+                <image src='{{buyImg}}'></image>
+                <text>开始选购</text>
+            </view>
+        </view>
+        <view class='btn-view-bottom'>
+            <view class='btnView-style' hover-class='hover-btn'>
+                <image src='{{huiImg}}'></image>
+                <text>药物回收</text>
+            </view>
+            <view class='btnView-style' hover-class='hover-btn'>
+                <view class='more-style'><text>· · ·</text></view>
+            </view>
+        </view>
+    </view>
+    <view class='indexFixedBar'>
+        <view class='bar-left bar-font-blue' hover-class='hover-bar'>
+            <image class='bar-img' src='{{indexImg}}'></image>
+            <text>首页</text>
+        </view>
+        <view class='bar-middle'>|</view>
+        <view class='bar-right' hover-class='hover-bar' bindtap='navToOrderForm'>
+            <image class='bar-img' src='{{dingImg}}'></image>
+            <text>订单</text>
+        </view>
+        <view class='bar-middle'>|</view>
+        <view class='bar-right-1' hover-class='hover-bar' bindtap='navToMy'>
+            <image class='bar-img' src='{{myImg}}'></image>
+            <text>我的</text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,43 @@
+<view class="container">
+    <view class='order-view'>
+        <view class='box-none' wx:if="{{fabuData.length==0}}">
+            <image src='/img/none.png' class='none-img'></image>
+            <view class='none-txt'>暂无数据哦</view>
+        </view>
+        <view class='box-have' wx:if="{{fabuData.length}}">
+            <view wx:for='{{fabuData}}' class='abox' wx:key="*this">
+                <view class='abox-img-view'>
+                    <image src='{{item.imgsrc}}' class='abox-img'></image>
+                </view>
+                <view class='abox-info'>
+                    <view class='info-name'>{{item.title}}</view>
+                    <view class='info-time'>
+                        <text class='time-day'>{{item.day}}</text>
+                        <text class='time-time' style='margin-left:12rpx'>{{item.time}}</text>
+                    </view>
+                </view>
+                <view class='abox-right'>
+                    <view class='abox-status'>{{item.status}}</view>
+                    <button class='abox-btn' bindtap='commentThis' data-id="{{item.id}}">删除订单</button>
+                </view>
+            </view>
+            <view class='useBlock'></view>
+        </view>
+    </view>
+    <view class='indexFixedBar'>
+        <view class='bar-left' hover-class='hover-bar' bindtap='navToIndex'>
+            <image class='bar-img' src='{{indexImg}}'></image>
+            <text>首页</text>
+        </view>
+        <view class='bar-middle'>|</view>
+        <view class='bar-right bar-font-blue' hover-class='hover-bar'>
+            <image class='bar-img' src='{{dingImg}}'></image>
+            <text>订单</text>
+        </view>
+        <view class='bar-middle'>|</view>
+        <view class='bar-right-1' hover-class='hover-bar' bindtap='navToMy'>
+            <image class='bar-img' src='{{myImg}}'></image>
+            <text>我的</text>
+        </view>
+    </view>
+</view>

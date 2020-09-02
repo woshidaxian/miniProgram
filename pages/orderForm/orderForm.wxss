@@ -1,0 +1,83 @@
+/* pages/orderForm/orderForm.wxss */
+
+.box-1 {
+    width: 100%;
+    min-height: 100%;
+    padding-top: 60rpx;
+}
+
+.box-none {
+    height: 1040rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 36rpx;
+    color: #949494;
+}
+
+.none-img {
+    width: 100rpx;
+    height: 100rpx;
+    margin-bottom: 40rpx;
+}
+
+.abox {
+    width: 100%;
+    height: 180rpx;
+    border-bottom: 1px solid rgb(243, 243, 243);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 60rpx;
+}
+
+.abox-img-view {
+    width: 85rpx;
+    height: 85rpx;
+    background: #bababa;
+}
+
+.abox-img {
+    width: 100%;
+    height: 100%;
+}
+
+.abox-info {
+    width: 350rpx;
+    margin-left: 45rpx;
+    font-size: 25rpx;
+    color: #767474;
+}
+
+.info-name {
+    font-size: 28rpx;
+    color: black;
+}
+
+.abox-status {
+    font-size: 24rpx;
+    text-align: right;
+    margin-top: 30rpx;
+    color: rgb(13, 114, 145);
+}
+
+.abox-btn {
+    width: 190rpx;
+    height: 46rpx;
+    background: #fff;
+    font-size: 22rpx;
+    line-height: 46rpx;
+    margin-top: 30rpx;
+}
+
+.bbox-right {
+    margin-left: 220rpx;
+    font-size: 28rpx;
+    position: relative;
+    top: -20rpx;
+}
+
+.useBlock {
+    height: 150rpx;
+}
